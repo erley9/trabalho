@@ -1,0 +1,242 @@
+#container-tabela{
+	width: 80%;
+	margin-left: 4%;
+	margin-right: 10%;
+	padding-top: 2%;
+}
+
+#container-tabela h1{
+display: block;
+	margin-bottom: 10px;
+	color: #fff;
+	font-size: 1.4em;
+	line-height: 18px;
+	font-weight: bold;
+	background: #a62f25;
+	font-family: "Calibri";
+	padding: 8px;
+	margin-top: 10px;
+}
+
+#container-tabela a.cadastrar{
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-top: 0.75%;
+	padding-bottom: 0.75%;
+	font-size: 1.2em;
+
+	background: url("../../img/adm/fundo-botoes.jpg");
+
+}
+
+#container-tabela a.cadastrar:hover{
+	opacity: 0.8;
+}
+
+#container-tabela table{
+	border: 1px solid #000;
+	width: 100%;
+	text-align: center;
+	vertical-align: middle;
+	margin-top: 10px;
+
+}
+
+#container-tabela table thead{
+	font-size: 1.4em;
+	color: #e56e33;
+	background-color: #e8e8e8;
+	line-height: 2em;
+	
+}
+
+#container-tabela table tbody tr{
+	border: 1px solid #000;
+	line-height: 2em;
+
+}
+
+#container-tabela table tbody img{
+	vertical-align: middle;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+#container-tabela table tbody tr td{
+	vertical-align: middle;
+	line-height: 2em;
+
+}
+
+#container-tabela table tbody tr td .logo{
+	width: 15%;
+	height: auto;
+}
+
+#container-tabela h1.titulo-pedido{
+	display: block;
+margin-bottom: 10px;
+color: #fff;
+font-size: 1.4em;
+line-height: 18px;
+font-weight: bold;
+background: #a62f25;
+font-family: "Calibri";
+padding: 10px;
+}
+
+#container-tabela h1.subtitulo{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #000;
+	font-size: 18px;
+	background: none;
+	text-indent: 0;
+	padding: 0;
+}
+
+#container-tabela article.dados-gerais p{
+
+	font-size: 16px;
+	line-height: 22px;
+
+}
+
+#container-tabela article.dados-gerais p em{
+	font-size: 12px;
+	line-height: 30px;
+	font-weight: bold;
+}
+
+#container-tabela ul.lista-pedidos li{
+	font-size: 16px;
+	line-height: 22px;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	padding: 5px;
+}
+
+#container-tabela ul.lista-pedidos li p em{
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#container-tabela ul.lista-observacoes li{
+	font-size: 16px;
+	line-height: 22px;
+}
+
+#container-tabela #form-observacoes input[type="text"]{
+	width: 80%;
+	height: 37px;
+border: 1px solid #999999;
+border-radius: 5px;
+padding: 5px;
+margin-top: 5px;
+}
+
+#container-tabela #form-observacoes input[type="button"]{
+
+color: #fff;
+background: #000;
+padding: 10px 20px 10px 20px;
+text-decoration: none;
+text-transform: uppercase;
+font-weight: bold;
+border: none;
+font-family: "Calibri";
+font-size: 14px;
+
+}
+
+
+#container-tabela #form-observacoes input[type="button"]:hover{
+	opacity: 0.8;
+}
+
+
+#container-tabela #form-status input[type="button"]{
+	color: #fff;
+background: #000;
+padding: 10px 20px 10px 20px;
+text-decoration: none;
+text-transform: uppercase;
+font-weight: bold;
+border: none;
+font-family: "Calibri";
+font-size: 14px;
+}
+
+#container-tabela #form-status input[type="button"]:hover{
+	opacity: 0.8;
+}
+
+#container-tabela #form-status select{
+	width: 40%;
+border: 1px solid #999999;
+border-radius: 5px;
+padding: 5px;
+margin-top: 5px;
+height: 37px;
+}
+
+
+#container-tabela #form-correios input[type="url"]{
+	width: 80%;
+	height: 37px;
+	border: 1px solid #999999;
+	border-radius: 5px;
+	padding: 5px;
+	margin-top: 5px;
+}
+
+#container-tabela #form-correios input[type="button"]{
+	color: #fff;
+background: #000;
+padding: 10px 20px 10px 20px;
+text-decoration: none;
+text-transform: uppercase;
+font-weight: bold;
+border: none;
+font-family: "Calibri";
+font-size: 14px;
+}
+
+
+#container-tabela #form-correios input[type="button"]:hover{
+	opacity: 0.8;
+}
+
+#container-tabela #form-nota{
+	margin-bottom: 10px;
+}
+
+#container-tabela #form-nota input[type="url"]{
+	width: 80%;
+height: 37px;
+border: 1px solid #999999;
+border-radius: 5px;
+padding: 5px;
+margin-top: 5px;
+}
+
+#container-tabela #form-nota input[type="button"]{
+color: #fff;
+background: #000;
+padding: 10px 20px 10px 20px;
+text-decoration: none;
+text-transform: uppercase;
+font-weight: bold;
+border: none;
+font-family: "Calibri";
+font-size: 14px;
+}
+
+
+#container-tabela #form-nota input[type="button"]:hover{
+	opacity: 0.8;
+}
+

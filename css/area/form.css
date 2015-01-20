@@ -1,0 +1,114 @@
+form{
+	width: 100%;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+form input[type=submit]{
+	display: block;
+	color: #fff;
+	background: #000;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	border: none;
+	font-family: "Calibri";
+	font-size: 14px;
+	margin-top: 20px;
+
+
+}
+
+form select{
+		width: 40%;
+	border: 1px solid #999999;
+	border-radius: 5px;
+	padding: 5px;
+	margin-top: 5px;
+	height: 35px;
+}
+
+.separar{
+	display: block;
+	width: 100%;
+	margin-bottom: 10px;
+	margin-top: 2px;
+}
+
+form label{
+	display: block;
+	width: 100%;
+	font-family: "Arial";
+	font-weight: bold;
+	font-size: 16px;
+	margin-bottom: 5px;
+margin-top: 10px;
+
+}
+
+form input[type=file]{
+	width: 90%;
+	border: 1px solid #999999;
+	border-radius: 5px;
+	padding: 5px;
+	margin-top: 5px;
+}
+
+form input[type=text],input[type=url],input[type=password]{
+	width: 90%;
+	border: 1px solid #999999;
+	border-radius: 5px;
+	padding: 5px;
+	margin-top: 5px;
+	height: 35px;
+}
+
+
+form input[type=text]:active,input[type=url]:active{
+border: 1px solid #e56e33;
+}
+
+form textarea{
+	width: 90%;
+	border: 1px solid #999999;
+	border-radius: 5px;
+	padding: 5px;
+	margin-top: 5px;
+	height: 300px;
+	resize:none;
+}
+
+#buscar-palavra input[type=submit]{
+display:inline-block;
+padding:5px 10px 5px 10px;	
+}
+
+#buscar-palavra select{
+	padding:5px;	
+}
+
+#cadastrar-palavra{	
+margin-top:10px;
+margin-bottom:10px;
+vertical-align:middle;
+}
+
+#cadastrar-palavra input[type=text]{
+	display:inline-block;
+	width:150px;
+}
+
+#cadastrar-palavra input[type=submit]{
+display:inline-block;
+padding:4px;	
+}
+#container-tabela #tabela-palavras{
+width:50%;	
+}
+#tabela-palavras tbody tr td input[type=text]{
+width:100%;
+padding:5px;
+font-size:14px;
+}
+

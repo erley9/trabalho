@@ -1,0 +1,320 @@
+#container-tabela{
+	width: 80%;
+	margin-left: 100px;
+
+	padding-top: 5%;
+
+}
+
+#container-tabela h1{
+	display: block;
+	margin-bottom: 10px;
+	color: #fff;
+	font-size: 1.4em;
+	line-height: 18px;
+	font-weight: bold;
+	background: #a62f25;
+	font-family: "Calibri";
+	padding: 10px;
+}
+
+#container-tabela a.cadastrar{
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-top: 0.75%;
+	padding-bottom: 0.75%;
+	font-size: 1.4em;
+	font-family: "Calibri";
+	margin-bottom: 10px;
+
+	background: url("../../img/adm/fundo-botoes.jpg");
+
+}
+
+#container-tabela a.cadastrar:hover{
+	opacity: 0.8;
+}
+
+#container-tabela table{
+
+	width: 100%;
+	text-align: center;
+	vertical-align: middle;
+
+}
+
+#container-tabela table thead{
+	font-size: 1.4em;
+	color: #000;
+	font-family: "Calibri";
+	font-weight: bold;
+	background-color: #e8e8e8;
+	line-height: 2em;
+
+	
+}
+
+#container-tabela table thead tr th.banner{
+	text-align: left;
+	text-indent: 10px;
+}
+
+#container-tabela table tbody tr{
+	
+	line-height: 2em;
+	text-align: left;
+	
+
+}
+
+#container-tabela table tbody tr td.titulo{
+	text-indent: 5px;
+}
+
+#container-tabela table tbody tr:nth-child(2n){
+	background: #e8e8e8;
+} 
+
+#container-tabela table tbody tr td{
+
+}
+
+#container-tabela table tbody img{
+	vertical-align: middle;
+	margin-left: 25px;
+}
+
+#container-tabela table tbody img.imagem{
+	vertical-align: middle;
+	margin-top: 1%;
+	margin-bottom: 1%;
+
+}
+
+#container-tabela table tbody tr td{
+	vertical-align: middle;
+	line-height: 2em;
+	font-size: 14px;
+	font-weight: bold;
+	font-family:"Calibri";
+
+}
+
+#container-tabela table tbody tr td .logo{
+	width: 111px;
+	height: 71px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+
+#buscaCodigo{
+	width: 358px;
+	display: inline-block;
+	margin-left: 470px;
+	text-align: right;
+	position: relative;
+}
+
+#buscaCodigo.busca2{
+	width: 358px;
+	display: inline-block;
+	margin-left: 0;
+	text-align: left;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+
+#buscaCodigo input[type="text"]{
+	display: inline-block;
+	width: 280px;
+	height: 30px;
+	border: 1px solid #7b7b7b;
+	padding: 2px;
+	
+	
+}
+
+#buscaCodigo input[type="submit"]{
+	display: inline-block;
+	height: 30px;
+	padding: 2px;
+	width: 97px;
+	background: #333333;
+	border: none;
+	color: #fff;
+	font-family: "Calibri";
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	position: absolute;
+	right: 1px;
+}
+
+#container-tabela table.modelos thead tr th.titulo-modelo{
+	text-indent: 12px;
+	
+
+}
+
+#container-tabela table tbody img.icon-modelo {
+display: inline-block;
+margin-top: 5px;
+margin-bottom: 5px;
+margin-right: 30px;
+
+}
+
+#container-tabela table.tbl-modelos thead tr th{
+
+	text-align: center;
+	text-indent: 0;
+	font-family: "Calibri";
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 16px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	
+
+}
+
+#container-tabela table.tbl-modelos thead tr th.banner{
+	text-align:  left;
+	text-indent: 5px;
+}
+
+#container-tabela table.tbl-modelos tbody img.imagem{
+	display: inline-block;
+	width: 92px;
+	height: 74px;
+	margin-top: 10px;
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-bottom: 10px;
+}
+
+#container-tabela table.tbl-modelos tbody article p{
+	font-family: "Calibri";
+	font-size: 12px;
+	font-weight: bold;
+	color: #979797;
+
+}
+
+#container-tabela table.tbl-modelos tbody article p.titulo-produto{
+	font-size: 14px;
+	color: #000;
+	text-transform: uppercase;
+
+}
+
+#container-tabela table.tbl-modelos tbody tr td.centro{
+	margin-left: 20px;
+	text-align: center;
+}
+
+#container-tabela table.tbl-modelos tbody tr td.centro.tamanho a{
+	display: inline-block;
+	text-decoration: none;
+	line-height: 10px;
+	font-family: "Calibri";
+	font-size: 12px;
+	font-weight: bold;
+	color: #a62f25;
+	margin-left: 0;
+	text-indent: 0;
+	text-align: left;
+	
+
+}
+
+#container-tabela table.tbl-modelos tbody img{
+	margin-right: 0;
+	margin-left: 0;
+}
+
+#form-tipo select {
+
+	width: 40%;
+	border: 1px solid #999999;
+	border-radius: 5px;
+	padding: 5px;
+	margin-top: 5px;
+	height: 35px;
+
+}
+
+#form-tipo input[type="button"]{
+	display: block;
+	color: #fff;
+	background: #000;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	border: none;
+	font-family: "Calibri";
+	font-size: 14px;
+	margin-top: 10px;
+}
+
+form.cadastra-categoria input[type="button"]{
+	color: #fff;
+	background: #000;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	border: none;
+	font-family: "Calibri";
+	font-size: 14px;
+
+}
+
+
+form.cadastra-categoria input[type="text"]{
+	width: 40%;
+	border: 1px solid #999999;
+	border-radius: 5px;
+	padding: 5px;
+	margin-top: 5px;
+	height: 35px;
+}
+
+#tamanhos{
+	width: 40%;
+	border: 1px solid #999999;
+	border-radius: 5px;
+	padding: 5px;
+	margin-top: 5px;
+	height: 37px;
+	margin-bottom: 5px;
+}
+
+#txt-pedido{
+	width: 20%;
+	border: 1px solid #999999;
+	border-radius: 5px;
+	padding: 5px;
+	margin-top: 5px;
+	height: 37px;
+	margin-bottom: 20px;
+}
+
+#cadastra-tamanho-btn{
+	display: block;
+	color: #fff;
+	background: #000;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	border: none;
+	font-family: "Calibri";
+	font-size: 14px;
+}

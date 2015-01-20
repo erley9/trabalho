@@ -1,0 +1,110 @@
+#container-tabela{
+	width: 90%;
+	height: 100%;
+	padding: 5%;
+	padding-top: 1%;
+}
+
+#container-tabela h1{
+	display: block;
+	margin-bottom: 10px;
+	color: #e56e33;
+	font-size: 1.6em;
+	font-weight: bold;
+}
+
+#container-tabela a.cadastrar{
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-top: 0.75%;
+	padding-bottom: 0.75%;
+	font-size: 1.2em;
+	margin-bottom: 1%;
+	background: url("../../img/adm/fundo-botoes.jpg");
+
+}
+
+#container-tabela a.cadastrar:hover{
+	opacity: 0.8;
+}
+
+#container-tabela table{
+	border: 1px solid #000;
+	width: 100%;
+	text-align: center;
+
+}
+
+#container-tabela table thead{
+	font-size: 1.4em;
+	color: #e56e33;
+	background-color: #e8e8e8;
+	line-height: 2em;
+	
+}
+
+#container-tabela table tbody tr{
+	border: 1px solid #000;
+}
+
+#container-tabela table tbody tr td{
+	vertical-align: middle;
+	line-height: 2em;
+}
+
+#container-tabela table tbody tr td .logo{
+	width: 15%;
+	height: auto;
+}
+
+#container-tabela ul{
+	width: 100%;
+	background-color: #dcdcdc;
+	padding: 5px;
+	border: 1px solid #000;
+
+}
+
+#container-tabela li {
+	position: relative;
+ 	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	width: 31.333333333333332%;
+	margin-left: 1%;
+	margin-bottom: 1%;
+	margin-top: 1%;
+	border: 1px solid #000;
+	background-color: #fff;
+}
+
+#container-tabela li .imagem{
+ 	 width: 80%;
+ 	 margin-left: auto;
+ 	 margin-right: auto;
+}
+
+#galeria{
+	display: block;
+}
+
+
+#galeria a{
+	text-decoration: none;
+	color: #f00;
+}
+
+.status{
+	display: block;
+}
+.excluir{
+	position: absolute;
+	top: 1%;
+	left: 11%;
+}
+
+
+

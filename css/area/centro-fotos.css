@@ -1,0 +1,78 @@
+#container-fotos{
+margin-top:20px;	
+}
+
+#form-listar-fotos{
+margin-top:10px;
+margin-bottom:10px;	
+}
+
+#form-cadastrar{
+margin-top:10px;
+margin-bottom:10px;		
+}
+
+
+#form-cadastrar input[type="file"]{
+	width: 80%;
+	border: 1px solid #999999;
+	border-radius: 5px;
+	padding: 5px;
+	margin-top: 5px;
+	height: 37px;
+}
+
+#form-cadastrar input[type="button"]{
+	color: #fff;
+	background: #000;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	border: none;
+	font-family: "Calibri";
+	font-size: 14px;
+}
+#container-fotos-produtos{
+margin-top:10px;	
+}
+
+#container-fotos-produtos h1{
+	margin-top:15px;
+}
+
+
+
+
+
+#container-fotos li{
+	position:relative;
+	display: inline-block;
+	width: 200px;
+	border: 1px solid #000;
+	margin-top: 5px;
+	margin-left:5px;
+	vertical-align: top;
+
+}
+
+#container-fotos li a{
+text-decoration:none;
+padding:5px;
+position:absolute;
+color:#000;	
+
+}
+
+#container-fotos li figure{
+	width:200px;
+	height:200px;	
+}
+
+#container-fotos li figure img{
+	width: 198px;
+	height: 198px;
+	margin-left: auto;
+	margin-right: auto;
+}
+

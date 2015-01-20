@@ -1,0 +1,1082 @@
+* {margin:0; padding: 0;}
+html, body {height:100%;}
+ 
+/** formata elementos que tem backgrounds parallax **/
+
+/*
+h1{
+
+	font-family: "bebas_neueregular";
+	color: #499f9a;
+	font-size: 60.55px;
+	margin-bottom: 29px;
+
+}
+
+p{
+	font-size: 16px;
+	font-family: "Calibri";
+	line-height: 20px;
+
+
+}
+header{
+	
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 100000000;
+	
+}
+
+header.interno{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 100000000;
+	
+}
+
+header #topo{
+	height: 128px;
+	background: url("../img/background-topo.jpg");
+}
+
+header #topo div.centralizar{
+	width: 950px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	padding-top: 10px;
+}
+
+header #topo div.centralizar #logo{
+	width: 172px;
+	height: 121px;
+	background: url("../img/logo.png") no-repeat;
+
+}
+
+header #topo div.centralizar #redes-sociais{
+	position: absolute;
+	right: 0;
+	top: 15px;
+}
+
+header #topo div.centralizar #redes-sociais li{
+	display: inline-block;
+}
+
+header #topo div.centralizar article{
+	position: absolute;
+	bottom: 5px;
+	right: 0;
+	text-align: right;
+
+}
+
+header #topo div.centralizar article p.telefone{
+	font-family: "impactregular";
+	font-size: 25.97px;
+}
+
+
+header #topo div.centralizar article p{
+	font-family: "Calibri";
+	font-size: 15.17px;
+	margin-top: 5px;
+	color: #323f5f;
+}
+
+header #topo div.centralizar article p.telefone em{
+	font-size: 15.22px;
+}
+
+header #menu-principal{
+	background: #01b2a8;
+	height: 46px;
+	border-top: 1px solid #01968e;
+	border-bottom: 1px solid #01968e;
+}
+
+header #menu-principal div.centralizar2{
+	width: 950px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+header #menu-principal div.centralizar2 ul li{
+	display: inline-block;
+	border-right: 1px solid #01968e;
+
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+
+header #menu-principal div.centralizar2 ul li:hover{
+	opacity: 0.9;
+}
+
+
+
+
+header #menu-principal div.centralizar2 ul li a{
+	font-family: "Calibri";
+	font-size: 16px;
+	font-weight:bold;
+	text-decoration: none;
+	color: #fff;
+	line-height: 45px;
+}
+
+header #menu-principal div.centralizar2 ul li:last-child{
+	border: none;
+}
+*/
+
+
+.bgParallax {
+	
+	margin: 0 auto;
+	width: 100%;
+
+	width: 100%;
+	max-width: 1920px;
+	position: relative;
+	min-height: 100%;
+	
+	
+
+
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
+
+
+#topo-menu{
+
+	position: absolute;
+
+	left: 50%;
+	margin-left: -501px;
+	width: 1002px;
+	height: 103px;
+	background: #fff;
+	z-index: 9999999999999999;
+	margin-top: 64px;
+	box-shadow: 1px 1px 3px #000;
+
+
+	
+
+
+}
+
+#topo-menu h1.logo{
+	width: 233px;
+	height: 92px;
+	background: url("../../img/public/logo.png");
+	position: absolute;
+	top: 5px;
+}
+
+
+#topo-menu #dados-gerais{
+	position: absolute;
+
+	top: 1px;
+	right: 0;
+	width: 521px;
+	height: 70px;
+
+}
+
+#topo-menu #dados-gerais img.patrocinio{
+	float: left;
+
+	margin-right: 230px;
+	margin-top: 10px;
+}
+
+#topo-menu #dados-gerais article{
+	float: left;
+	margin-top: 10px;
+}
+
+#topo-menu #dados-gerais article h1{
+	font-family: tahoma;
+	font-size: 12px;
+	color: #124986;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#topo-menu #dados-gerais article p{
+	font-family: impact;
+	font-size: 19px;
+	color: #124986;
+}
+
+#topo-menu #dados-gerais article p em{
+	font-size: 13px;
+}
+
+#topo-menu #dados-gerais figure{
+	display: inline-block;
+	
+	margin-top: 10px;
+	margin-left: 5px;
+}
+
+#topo-menu #dados-gerais figure img{
+	border-left: 1px solid #567da9;
+	padding-left: 5px;
+}
+
+#topo-menu nav#menu-principal{
+	width: 678px;
+	height: 40px;
+	background: url("../../img/public/topo.png") no-repeat;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+#topo-menu nav#menu-principal ul{
+	margin-left: 60px;
+}
+
+#topo-menu nav#menu-principal ul li{
+	display: inline-block;
+	font-family: "weezerfontregular";
+	font-size: 13.9px;
+	line-height: 40px;
+	margin-left:15px;
+	margin-right: 15px;
+}
+
+#topo-menu nav#menu-principal ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+
+
+
+#topo{
+	width: 100%;
+	height: 549px;
+	background-repeat: no-repeat; 
+	background-image: url("../../img/public/topo-back2.jpg");
+	background-position: center 0;
+	position: relative;
+
+
+	text-align: center;
+}
+
+
+#topo-empresa{
+	width: 100%;
+	height: 549px;
+	background-repeat: no-repeat; 
+	background-image: url("../../img/public/topo-empresa.jpg");
+	background-position: center 0;
+	position: relative;
+
+
+	text-align: center;
+}
+
+
+/* Define backgrounds dos divs */
+#quemsomos {
+	background-image: url(../img/1.jpg);
+	
+	width: 100%;
+	height: 325px;
+	background-repeat: no-repeat; 
+	
+
+
+	/*background-color: #ffffff;*/
+
+
+}
+
+#quemsomos div.centralizar{
+	width: 1012px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+
+#quemsomos h1.titulo{
+	width: 302px;
+	height: 56px;
+	background: url("../../img/public/h1-titulo.png");
+	position: absolute;
+	top: -56px;
+	left: 350px; 
+	font-family: impact;
+	font-size: 28.82px;
+	color: #124986;
+	padding-top: 20px;
+	text-align: center;
+}
+
+
+#quemsomos article h2{
+	font-family: "new_ciclefina";
+	font-size: 25px;
+	color: #7f7f7f;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+#quemsomos article p{
+	font-family: "new_ciclefina";
+	font-size: 18px;
+	color: #7f7f7f;
+	line-height: 22px;
+}
+
+#imagem2{
+	width: 100%;
+	height: 324px;
+	
+	background-repeat: no-repeat; 
+	background-image: url("../../img/public/back2-1.jpg");
+	background-position: center center;
+
+
+	/*background-color: #fff;*/
+
+}
+
+
+#servicos{
+	width: 100%;
+	height: 494px;
+	background-repeat: no-repeat; 
+	background-color: #fff;
+
+
+	position: relative;
+	text-align: center;
+}
+
+
+#servicos div.centralizar{
+	width: 1012px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+
+#servicos h1.titulo{
+	width: 302px;
+	height: 56px;
+	background: url("../../img/public/h1-titulo.png");
+	position: absolute;
+	top: -56px;
+	left: 350px; 
+	font-family: impact;
+	font-size: 28.82px;
+	color: #124986;
+	padding-top: 20px;
+	text-align: center;
+
+
+}
+
+#servicos p{
+	text-align: left;
+	padding-top: 20px;
+	font-family: "new_ciclefina";
+	font-size: 18px;
+	margin-bottom: 48px;
+}
+
+#servicos ul{
+	text-align: left;
+}
+
+#servicos ul li{
+	width: 168px;
+	display: inline-block;
+	text-align: left;
+
+	margin-right: 25px;
+	vertical-align: top;
+
+}
+
+#servicos ul li p{
+	text-align: center;
+}
+
+
+
+#informacao{
+	width: 100%;
+	height: 230px;
+	background-repeat: no-repeat; 
+	background-color: #fff;
+
+	background-image:url("../../img/public/back3-1.jpg");
+	background-position: center center;
+
+
+	background-size: auto 280px;
+
+
+
+	
+}
+
+
+
+#clientes{
+	width: 100%;
+	height: 305px;
+	background-repeat: no-repeat; 
+	
+	background-color:#fff;
+	
+
+
+	position: relative;
+
+}
+
+
+
+#clientes div.centralizar{
+	width: 1012px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+#clientes h1.titulo{
+	width: 302px;
+	height: 56px;
+	background: url("../../img/public/h1-titulo.png");
+	position: absolute;
+	top: -56px;
+	left: 350px; 
+	font-family: impact;
+	font-size: 28.82px;
+	color: #124986;
+	padding-top: 20px;
+	text-align: center;
+
+}
+
+#clientes ul {
+	padding-top: 100px;
+}
+
+#clientes ul li{
+	display: inline-block;
+	margin-left: 70px;
+}
+
+footer{
+	height: 257px;
+	background: #124986;
+}
+
+footer div.centralizar{
+
+	width: 1012px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+
+}
+
+footer ul#links{
+	float: left;
+
+	padding-top: 30px;
+	
+
+}
+
+footer ul#links li{
+	margin-bottom: 10px;
+}
+
+footer ul#links li a{
+	font-family: 'calibri';
+	font-size: 12px;
+	color: #8da7c5;
+	text-decoration: none;
+}
+
+footer ul#lista-servicos{
+	width: 502px;
+	height: 100px;
+	float: left;
+	margin-left: 72px;
+	margin-right: 72px;
+	padding-top: 33px;
+}
+
+footer ul#lista-servicos h1{
+	font-family: impact;
+	font-size: 14.66px;
+	color: #8da7c5;
+	margin-bottom: 19px;
+}
+
+footer ul#lista-servicos li{
+	width: 213px;
+	display: inline-block;
+	margin-right: 30px;
+	vertical-align: top;
+}
+
+footer ul#lista-servicos li a{
+	font-size: 12.9px;
+	line-height: 18px;
+	color: #8da7c5;
+	text-decoration: none;
+	border-bottom: 1px solid #8da7c5;
+	font-family: "TwCenMT-Medium";
+}
+
+
+footer section#contato-rodape{
+	width: 280px;
+	float: left;
+	text-align: right;
+	margin-top: 60px;
+}
+
+footer section#contato-rodape article.parte1{
+	margin-bottom: 26px;
+}
+
+footer section#contato-rodape article.parte1 p.telefone{
+	font-family: impact;
+	font-size: 25.22px;
+	color: #8da7c5;
+}
+
+footer section#contato-rodape article.parte1 p{
+	font-family: 'calibri';
+	font-size: 13px;
+	color: #8da7c5;
+	line-height: 18px;
+}
+
+footer section#contato-rodape article.parte1 p.telefone em{
+	font-size: 15px;
+
+}
+
+footer section#contato-rodape article.parte2 p{
+	font-family: 'calibri';
+	font-size: 13px;
+	color: #8da7c5;
+	line-height: 22px;
+}
+
+
+footer section#contato-rodape article.parte2 img{
+	vertical-align: middle;
+}
+
+#topo-empresa{
+	width: 100%;
+	height: 549px;
+	background-repeat: no-repeat; 
+	background-image: url("../../img/public/topo-empresa.jpg");
+	background-position: center 0;
+	position: relative;
+
+
+	text-align: center;
+}
+
+
+/* Define backgrounds dos divs */
+#quemsomos-empresa {
+	background-image: url(../img/1.jpg);
+	display: table;
+	width: 100%;
+	min-height: 325px;
+	background-repeat: no-repeat; 
+	padding-bottom: 75px;
+	padding-top: 20px;
+	
+
+
+	/*background-color: #ffffff;*/
+
+
+}
+
+#quemsomos-empresa div.centralizar{
+	width: 1012px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+
+#quemsomos-empresa h1.titulo{
+	width: 302px;
+	height: 56px;
+	background: url("../../img/public/h1-titulo.png");
+	position: absolute;
+	top: -56px;
+	left: 350px; 
+	font-family: impact;
+	font-size: 28.82px;
+	color: #124986;
+	padding-top: 20px;
+	text-align: center;
+}
+
+
+#quemsomos-empresa article h2{
+	font-family: "new_ciclefina";
+	font-size: 25px;
+	color: #7f7f7f;
+	text-align: left;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+#quemsomos-empresa article p{
+	font-family: "new_ciclefina";
+	font-size: 18px;
+	color: #7f7f7f;
+	line-height: 22px;
+}
+
+
+#quemsomos-empresa article figure{
+	margin-top: 30px;
+}
+
+#quemsomos-empresa article figure img{
+	float: left;
+	display: inline-block;
+	margin-top: 60px;
+	margin-right: 20px;
+}
+
+#quemsomos-empresa article figure article{
+	width: 776px;
+	float: left;
+}
+
+
+
+#quemsomos-empresa2 {
+	background-image: url(../img/1.jpg);
+	display: table;
+	width: 100%;
+	min-height: 325px;
+	background-repeat: no-repeat; 
+	padding-bottom: 75px;
+	padding-top: 20px;
+	
+
+
+	/*background-color: #ffffff;*/
+
+
+}
+
+#quemsomos-empresa2 div.centralizar{
+	width: 1012px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+
+#quemsomos-empresa2 h1.titulo{
+	width: 302px;
+	height: 56px;
+	background: url("../../img/public/h1-titulo.png");
+	position: absolute;
+	top: -56px;
+	left: 350px; 
+	font-family: impact;
+	font-size: 28.82px;
+	color: #124986;
+	padding-top: 20px;
+	text-align: center;
+}
+
+
+#quemsomos-empresa2 article h2{
+	font-family: "new_ciclefina";
+	font-size: 25px;
+	color: #7f7f7f;
+	text-align: left;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+#quemsomos-empresa2 article p{
+	font-family: "new_ciclefina";
+	font-size: 18px;
+	color: #7f7f7f;
+	line-height: 22px;
+}
+
+
+#quemsomos-empresa2 article figure{
+	margin-top: 30px;
+	display: table;
+}
+
+#quemsomos-empresa2 article figure img{
+	float: left;
+	display: inline-block;
+	margin-right: 20px;
+
+
+}
+
+#quemsomos-empresa2 article figure img.objetivo{
+	margin-top: 40px;
+}
+
+#quemsomos-empresa2 article figure img.politica{
+	margin-top: 20px;
+	margin-right: 60px;
+}
+
+
+#quemsomos-empresa2 article figure img.processos{
+	margin-top: 35px;
+
+}
+
+
+#quemsomos-empresa2 article figure article{
+	width: 776px;
+	float: left;
+
+}
+
+
+
+
+
+#imagem2-empresa{
+	width: 100%;
+	height: 324px;
+	
+	background-repeat: no-repeat; 
+	background-image: url("../../img/public/back2-empresa.jpg");
+	background-position: center center;
+
+	
+
+
+	/*background-color: #fff;*/
+
+}
+
+
+#topo-servicos{
+	width: 100%;
+	height: 549px;
+	background-repeat: no-repeat; 
+	background-image: url("../../img/public/banner-servicos.jpg");
+	background-position: center 0;
+	position: relative;
+
+
+	text-align: center;
+}
+
+
+#quemsomos-servicos {
+	background-image: url(../img/1.jpg);
+	display: table;
+	width: 100%;
+	min-height: 325px;
+	background-repeat: no-repeat; 
+	padding-bottom: 75px;
+	padding-top: 20px;
+	
+
+
+	/*background-color: #ffffff;*/
+
+
+}
+
+#quemsomos-servicos div.centralizar{
+	width: 1012px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+
+#quemsomos-servicos h1.titulo{
+	width: 302px;
+	height: 56px;
+	background: url("../../img/public/h1-titulo.png");
+	position: absolute;
+	top: -56px;
+	left: 350px; 
+	font-family: impact;
+	font-size: 28.82px;
+	color: #124986;
+	padding-top: 20px;
+	text-align: center;
+}
+
+
+#quemsomos-servicos p.subtitulo{
+	font-family: "new_ciclefina";
+	font-size: 18px;
+	color: #616161;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+
+
+#quemsomos-servicos ul{
+	padding-top: 20px;
+}
+
+#quemsomos-servicos ul li{
+	display: table;
+	margin-bottom: 30px;
+}
+
+#quemsomos-servicos ul li img{
+
+	display: inline-block;
+	float: left;
+	margin-right: 10px;
+
+}
+
+#quemsomos-servicos ul li a{
+
+	text-decoration: none;
+
+}
+
+#quemsomos-servicos ul li a h1{
+	font-family: "new_ciclefina";
+	font-size: 20px;
+	color: #124986;
+	margin-bottom: 10px;
+}
+
+
+#quemsomos-servicos ul li a p{
+
+	font-family: "new_ciclefina";
+	font-size: 15px;
+	color: #616161;
+
+}
+
+
+#quemsomos-clientes {
+	background-image: url(../img/1.jpg);
+	display: table;
+	width: 100%;
+	min-height: 325px;
+	background-repeat: no-repeat; 
+	padding-bottom: 75px;
+	padding-top: 20px;
+	
+
+
+	/*background-color: #ffffff;*/
+
+
+}
+
+#quemsomos-clientes div.centralizar{
+	width: 1012px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+
+#quemsomos-clientes h1.titulo{
+	width: 302px;
+	height: 56px;
+	background: url("../../img/public/h1-titulo.png");
+	position: absolute;
+	top: -56px;
+	left: 350px; 
+	font-family: impact;
+	font-size: 28.82px;
+	color: #124986;
+	padding-top: 20px;
+	text-align: center;
+}
+
+#quemsomos-clientes  p{
+	text-align: center;
+	font-family: "new_ciclefina";
+	font-size: 18px;
+	color: #616161;
+	padding-top: 50px;
+}
+
+#quemsomos-clientes #lista-clientes{
+	padding-top: 40px;
+}
+
+
+#quemsomos-clientes #lista-clientes li{
+	display: inline-block;
+	width: 182px;
+	height: 118px;
+	text-align: center;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 20px;
+}
+
+
+#contato {
+	background-image: url(../img/1.jpg);
+	display: table;
+	width: 100%;
+	min-height: 325px;
+	background-repeat: no-repeat; 
+	padding-bottom: 75px;
+	padding-top: 20px;
+	
+
+
+	/*background-color: #ffffff;*/
+
+
+}
+
+#contato div.centralizar{
+	width: 1012px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+
+#contato h1.titulo{
+	width: 302px;
+	height: 56px;
+	background: url("../../img/public/h1-titulo.png");
+	position: absolute;
+	top: -56px;
+	left: 350px; 
+	font-family: impact;
+	font-size: 28.82px;
+	color: #124986;
+	padding-top: 20px;
+	text-align: center;
+}
+
+#contato section#contatos{
+	padding-top: 60px;
+	display: table;
+	border-bottom:  1px solid #616161;
+}
+
+#contato section#contatos form{
+	width: 521px;
+	height: 440px;
+	float:left;
+}
+
+#contato section#contatos form p{
+	font-family: "new_ciclefina";
+	font-size: 18px;
+	color: #616161;
+	margin-bottom: 20px;
+}
+
+#contato section#contatos form label{
+	font-family: "new_ciclefina";
+	font-size: 18px;
+	color: #616161;
+	width: 92px;
+	display: inline-block;
+}
+
+
+#contato section#contatos form input[type="text"]{
+	width: 366px;
+	line-height: 30px;
+	border-radius: 5px;
+	border: 1px solid #ababab;
+}
+
+#contato section#contatos form textarea{
+	width: 366px;
+	border-radius: 5px;
+	border: 1px solid #ababab;
+	vertical-align: top;
+	resize:none;
+}
+
+#contato section#contatos form  div{
+	margin-bottom: 25px;
+}
+
+#contato section#contatos form input[type="submit"]{
+	font-family: "new_ciclefina";
+	font-size: 18px;
+	color: #124986;
+	text-transform: uppercase;
+	background: none;
+	border: none;
+	margin-left: 100px;
+}
+
+#contato iframe{
+	margin-top: 20px;
+}
+
+section#dados-contato{
+	padding-top: 51px;
+}
+
+section#dados-contato article{
+	float: left;
+	margin-left: 150px;
+}
+
+section#dados-contato article p{
+	font-family: "new_ciclefina";
+	font-size: 18px;
+	color: #124986;
+	line-height: 20px;
+}

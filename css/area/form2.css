@@ -1,0 +1,50 @@
+form{
+	width: 100%;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+form input[type=submit]{
+	display: block;
+	color: #fff;
+	padding: 1%;
+	text-decoration: none;
+	font-weight: bold;
+	background: url("../../img/adm/fundo-botoes.jpg");
+}
+
+.separar{
+	display: inline-block;
+	width:26%;
+	margin-top: 1%;
+	margin-left:2%;
+	margin-right:2%;
+	margin-bottom: 1.5%;
+	vertical-align: top;
+
+}
+
+.botao{
+	display: block;
+	float: left;
+}
+.separar2{
+	width:86%;
+
+	margin-left:2%;
+	margin-right:2%;
+	float:left;
+}
+
+form input[type=text],input[type=url],input[type=password],select{
+	padding: 2px;
+	width: 100%;
+}
+
+
+
+form textarea{
+	display: block;
+	width: 100%;
+	min-height: 100px;
+}
